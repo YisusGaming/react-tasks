@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap');
+
+.form {
+    font-family: 'Lucida Sans', sans-serif;
+    background: #303030;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-group {
+    text-align: center;
+    background: #202020;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+}
+
+form input, form textarea {
+    font-size: 25px;
+    background: #808080;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    transition: 350ms;
+}
+
+form input::placeholder, form textarea::placeholder {
+    color: white;
+    opacity: .5;
+}
+
+form input:focus, form textarea:focus {
+    outline: solid white 4px;
+    outline-offset: 5px;
+    background: #202020;
+}
+
+form button {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: #404040;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    transition: 350ms;
+}
+
+form button:focus {
+    outline: solid white 4px;
+    outline-offset: 5px;
+    border-radius: 5px;
+}
+
+form button:hover {
+    opacity: .7;
+    color: lightgray;
+}
+
+form button:active {
+    opacity: 1;
+    background: #101010;
+    color: lightgreen;
+}

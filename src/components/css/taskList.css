@@ -1,0 +1,60 @@
+.tasklist {
+    display: grid;
+    grid-template-columns: 1fr;
+    background: #303030;
+    padding: 10px;
+    max-width: 550px;
+    border-radius: 5px;
+}
+
+.task {
+    font-family: sans-serif;
+    text-align: center;
+    background: #202020;
+    color: white;
+    width: 320px;
+    padding: 10px;
+    margin: 5px 0;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.task h2 {
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+.task button {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: #3a1e1e;
+    color: white;
+    width: 70%;
+    padding: 5px;
+    margin: 5px 0;
+    transition: 350ms;
+}
+
+.task button:focus {
+    outline: solid white 2px;
+    outline-offset: 3px;
+    border-radius: 5px;
+}
+
+.task button:hover {
+    opacity: .7;
+    color: lightgray;
+}
+
+.task button:active {
+    opacity: 1;
+    background: #101010;
+    color: lightcoral;
+}
+
+#no-tasks {
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+}

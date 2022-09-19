@@ -1,0 +1,53 @@
+.advice {
+    position: absolute;
+    font-family: 'Segoe UI', sans-serif;
+    background: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 0.5);
+    padding: 5px 2px;
+    left: 0;
+    right: 0;
+}
+
+.advice-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.advice-content #close-advice {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 20px;
+    cursor: pointer;
+    background: transparent;
+    color: lightcoral;
+    border: 2px solid lightcoral;
+    border-radius: 6px;
+    transition: 350ms;
+}
+
+.advice-content #close-advice:hover {
+    color: lightsalmon;
+    border: 2px solid lightsalmon;
+}
+
+.advice-content #close-advice:active {
+    color: red;
+    border: 2px solid red;
+}
+
+.advice-close {
+    animation: advice-close 2.5s forwards;
+}
+
+@keyframes advice-close {
+    from {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-400px);
+    }
+}
