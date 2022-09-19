@@ -11,4 +11,4 @@ It's a simple to-do app, with features like:
 The project is deployed and running right now at [this page.](https://taskapp.github.io)
 
 # License
-This project is licensed under [Apache 2.0 License.](https://github.com/YisusGaming/react-tasks/blob/main/LICENSE)
+This project is licensed under [MIT License.](LICENSE)
