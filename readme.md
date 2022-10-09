@@ -8,7 +8,7 @@ It's a simple to-do app, with features like:
 2. Removing tasks   
 
 # Deployment
-The project is deployed and running right now at [this page.](https://taskapp.github.io)
+The project is deployed and running right now at [this page.](https://yisusgaming.github.io/react-tasks/)
 
 # License
 This project is licensed under [MIT License.](LICENSE)
